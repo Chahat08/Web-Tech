@@ -1,0 +1,19 @@
+<html>
+<body>
+    <p id="dots"></p>
+    <section id="section1">
+        <h1>A SECTION OF THIS PAGE</h1>
+        <p id="dashes"></p>
+    </section>
+    <script>
+        var text1 = "";
+        var text2 = "";
+        for (var i = 0; i < 100; ++i)
+        {
+            text1 += ".<br/>"; text2 += "-<br/>";
+        }
+        document.getElementById("dots").innerHTML = text1;
+        document.getElementById("dashes").innerHTML = text2;
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+h2 {
+    color: green;
+}
+
+#times {
+    font-family: 'Times New Roman';
+}
+
+#serif {
+    font-family: serif;
+}
+
+#sans {
+    font-family: sans-serif;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#fantasy {
+    font-family: fantasy;
+}
+

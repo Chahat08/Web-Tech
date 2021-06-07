@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUESTION 5</title>
+</head>
+
+<body>
+    <p><b>Printing the items of both the arrays:</b></p>
+    <p id="text"></p>
+
+    <script>
+        var a1 = ["Ram", "Sham", "Sita", "Mohan"];
+        var a2 = ["Raman", "Neha"];
+        var text = "";
+
+        text += "<b>Array 1:</b><br/>";
+        for (var i = 0; i < a1.length; ++i) text += a1[i] + "<br/>";
+
+        text += "<b>Array 2:</b><br/>";
+        for (var i = 0; i < a2.length; ++i) text += a2[i] + "<br/>";
+
+        text += "<b>Length of Array 1</b> = " + a1.length.toString() + "<br/>";
+        text += "<b>Length of Array 2</b> = " + a2.length.toString() + "<br/>";
+
+        var a = a1.concat(a2);
+        text += "<b>Two arrays after concatenation:</b><br/>";
+        for (var i = 0; i < a.length; ++i) text += a[i] + "<br/>";
+
+        var newArr = a1.slice(1, 4);
+        text += "<b>Extracting the elements 2-4 from array 1 in a new array:</b><br/>";
+        for (var i = 0; i < newArr.length; ++i) text += newArr[i] + "<br/>";
+
+        text += "<b>Reversing the elements of the 1<sup>st</sup> array:</b><br/>";
+        a1.reverse();
+        for (var i = 0; i < a1.length; ++i) text += a1[i] + "<br/>";
+
+        text += "<b>Sorting the elements of the 1<sup>st</sup> array:</b><br/>";
+        a1.sort();
+        for (var i = 0; i < a1.length; ++i) text += a1[i] + "<br/>";
+
+        text += "<b>Joining the elements of array 1 using \"*\":</b><br/>";
+        text += a1.join("*");
+        text += "<br/>";
+
+        a1[0] = "Sunaina";
+        a1[1] = "Sonia";
+        text += "<b>Changing the first two elements of array 1:</b><br/>";
+        for (var i = 0; i < a1.length; ++i) text += a1[i] + "<br/>";
+
+        text += "<b>Element removed using Shift:</b><br/>";
+        text += a1.shift();
+        text += "<br/>";
+
+        a1.unshift("Swati");
+        text += "<b>Inserting Swati at the top:</b><br/>";
+        for (var i = 0; i < a1.length; ++i) text += a1[i] + "<br/>";
+
+        a1.push("Raj");
+        text += "<b>Inserting Raj at the end:</b><br/>";
+        for (var i = 0; i < a1.length; ++i) text += a1[i] + "<br/>";
+
+        document.getElementById("text").innerHTML = text;
+    </script>
+</body>
+</html>

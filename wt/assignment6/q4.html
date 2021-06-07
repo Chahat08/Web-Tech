@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUESTION 4</title>
+</head>
+
+<body>
+    <h1 id="time" style="text-align: center;">Use of switch statement</h1>
+    <h1 id="msg" style="text-align: center; color: red;"></h1>
+
+    <script>
+        switch (new Date().getDay()) {
+            case 0:
+                document.getElementById("msg").innerHTML = "Sleepy Sunday !!! Relaxing ...";
+                break;
+            case 5:
+                document.getElementById("msg").innerHTML = "Finally Friday!!! Exhausted ...";
+                break;
+            case 6:
+                document.getElementById("msg").innerHTML = "Super Saturday !!! Enjoying fully ...";
+                break;
+            default:
+                document.getElementById("msg").innerHTML = "I'm prepared for any work during working days !!!";
+        }
+    </script>
+</body>
+</html>

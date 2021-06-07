@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUESTION 2</title>
+</head>
+
+<body>
+    <h1 id="h1"></h1>
+    <h2 id="h2"></h2>
+    <h3 id="h3"></h3>
+    <h4 id="h4"></h4>
+    <h5 id="h5"></h5>
+    <h6 id="h6"></h6>
+    <h1 id="H1"></h1>
+    <h5 id="H5"></h5>
+    <h6 id="H6"></h6>
+    <script>
+        var id = "";
+        var text = "This is header ";
+        for (var i = 1; i <= 9; ++i)
+        {
+            if (i <= 6) {
+                document.getElementById("h" + i.toString()).innerHTML = text + i.toString();
+                document.getElementById("h" + i.toString()).style.color = "red";
+                continue;
+            }
+            else if (i <= 7) {
+                document.getElementById("H" + (i - 6).toString()).innerHTML = text + (i - 6).toString();
+                document.getElementById("H" + (i - 6).toString()).style.color = "green";
+                continue;
+            }
+            document.getElementById("H" + (i - 3).toString()).innerHTML = text + (i - 3).toString();
+            document.getElementById("H" + (i - 3).toString()).style.color = "blue";
+            if (i == 9) break;
+        }
+    </script>
+</body>
+</html>

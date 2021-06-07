@@ -1,0 +1,22 @@
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: cadetblue;
+    border: dashed;
+}
+
+b {
+    color: blue;
+    font-style: italic;
+}
+
+p {
+    justify-content: right;
+    font-style: italic;
+    text-indent: 1px;
+}
+
+li {
+    list-style-type: decimal;
+}
