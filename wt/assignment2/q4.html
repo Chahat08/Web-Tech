@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title id="title">QUESTION 4</title>
+</head>
+<body>
+    <h1 style="text-align: center; font-family: 'Lucida Sans Typewriter'">Softwares</h1>
+    <p id="sorted" style="text-align: center; font-family: 'Lucida Sans Typewriter'"></p>
+    <script>var names = ["Google Chrome", "Adobe Flash", "Amazon Prime", "Disney Hotstar", "Flipkart"];
+        var text = "";
+        names.sort();
+        for (var i = 0; i < names.length; ++i)
+            text += (i + 3) + ". " + names[i] + "</br>";
+        document.getElementById("sorted").innerHTML = text;</script>
+</body>
+</html>
