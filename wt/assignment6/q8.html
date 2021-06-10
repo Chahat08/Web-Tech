@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUESTION 8</title>
+
+</head>
+
+<body style="text-align: center; background-image: linear-gradient(to right, aqua, lime);">
+
+    <h1><u>Rotating "Web Programming"</u></h1>
+
+    <p id="txt"></p>
+
+    <script>
+        var str = "Web Programming";
+        var l = [];
+        for (var i = 0; i < str.length; ++i) {
+            var x = str[str.length - 1];
+            str = str.slice(0, str.length - 1);
+            l.push(x.concat(str));
+            str = x.concat(str);
+        }
+        document.getElementById("txt").innerHTML = l.join("<br/>");
+    </script>
+
+</body>
+</html>
