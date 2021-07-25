@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="2.css"?>
+<courses>
+	<course>
+		<course_no>CS 301</course_no>
+		<course_title>Data Structures</course_title>
+		<term>3</term>
+		<teacher>Prof. Sakshi Kaushal</teacher>
+		<user>
+			<user_id>UE193032</user_id>
+			<firstname>Chahat</firstname>
+			<lastname>Kalsi</lastname>
+			<username>chahatue193032cse</username>
+		</user>
+	</course>
+	<course>
+		<course_no>CS 402</course_no>
+		<course_title>Analysis and Design of Algorithms</course_title>
+		<term>4</term>
+		<teacher>Prof. Ajay Mittal</teacher>
+		<user>
+			<user_id>UE193033</user_id>
+			<firstname>Chhavi</firstname>
+			<lastname>Dua</lastname>
+			<username>chhaviue193033cse</username>
+		</user>
+	</course>
+</courses>

@@ -1,0 +1,41 @@
+course_no, course_title, term, teacher, user {
+    display: block;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+teacher {
+    padding-bottom: 20px;
+}
+
+user_id, firstname, lastname, username {
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 41px;
+}
+
+course_no, course_title, term {
+    display: inline;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: blueviolet;
+    margin-left: 0px;
+}
+
+course_title {
+    padding-left: 20px;
+    color: indianred;
+}
+
+term {
+    padding-left: 20px;
+    color: olivedrab;
+}
+
+teacher {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}

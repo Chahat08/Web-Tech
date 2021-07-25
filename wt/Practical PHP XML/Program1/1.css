@@ -1,0 +1,26 @@
+name, rollno, branch, college, year, email {
+    display: block;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+name, rollno {
+    display: inline;
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 500;
+    color: orange;
+    margin-left: 0px;
+}
+
+name {
+    padding-left: 20px;
+    color: olivedrab;
+}
+
+email {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
